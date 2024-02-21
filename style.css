@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  background: #DED0B6;
+  color: #000;
+  
+}
+
+.hal2,
+.hal1{
+  height: 100vh;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(bag/bg3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 4rem;
+}
+.hal3{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(bag/bg3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 4rem;
+}
+.det2,
+.det3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+.det1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+}
+.hal3 p{
+  font-family: "Alfa Slab One", sans-serif;
+  font-size: 15px;
+  color: #454545;
+}
+.apa3,
+.apa1{
+  margin-top: 2rem;
+  border-radius: 2px;
+  padding: 4px 10px 2%;
+  background-color: #454647;
+  box-shadow: 0rem 0.1rem 0.1rem 0.1rem rgba(222, 208, 182, 1);
+  color: #D3D3D3;
+  font-family: "Alfa Slab One", sans-serif;
+  font-size: 10px;
+}
+.apa2{
+  margin-top: 2rem;
+  border-radius: 2px;
+  padding: 4px 10px 1%;
+  background-color: #454647;
+  box-shadow: 0rem 0.1rem 0.1rem 0.1rem rgba(222, 208, 182, 1);
+  color: #D3D3D3;
+  font-family: "Alfa Slab One", sans-serif;
+  font-size: 10px;
+  position: absolute;
+  top: 70%;
+}
+.hal2 p{
+  font-family: "Alfa Slab One", sans-serif;
+  font-size: 19px;
+  color: #4D5A6C;
+  margin-bottom: 2rem;
+}
+.hal2 .img1{
+  aspect-ratio: 4/3;
+  width: 40%;
+}
+.hal2 .img2{
+  aspect-ratio: 1/1;
+  width: 40%;
+  position: absolute;
+  right: 97px;
+  top: 42%;
+  animation: kanan-kiri 2s ease-in-out infinite;
+}
+.hal2 .img3{
+  aspect-ratio: 1/1;
+  width: 60%;
+  position: absolute;
+  transform: translate(0px,50px);
+  
+}
+.hal1 .img1{
+  aspect-ratio: 5/3;
+  width: 27%;
+  position: absolute;
+  transform: translate(9px,-12px)
+}
+.hal1 .img2{
+  aspect-ratio: 5/3;
+  width: 35%;
+}
+.hal1 .img3{
+  aspect-ratio: 9/16;
+  width: 10%;
+  position: absolute;
+  transform: translate(170px,-10px)
+}
+.atas{
+  height: 20%;
+  width: 100%;
+  transform: translate(-100px,-30px);
+}
+.bawah p{
+  font-size: 12px;
+}
+@keyframes kanan-kiri{
+  0%{
+    transform: rotate(20deg);
+  }
+  50%{
+    transform: rotate(10deg);
+  }
+  100%{
+    transform: rotate(20deg);
+  }
+}
